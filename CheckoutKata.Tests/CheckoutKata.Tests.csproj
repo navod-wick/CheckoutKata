@@ -17,6 +17,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CheckoutKata.Common\CheckoutKata.Common.csproj" />
+    <ProjectReference Include="..\CheckoutKata.Service\CheckoutKata.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 

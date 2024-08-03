@@ -41,7 +41,7 @@ public class Checkout : ICheckout
                 processedItems.Add(item.Sku);
             }
         }
-
+        
         return totalPrice;
     }
 
